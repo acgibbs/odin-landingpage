@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto';
     font-weight: 300;
+    margin: 0;
 }
 .header {
     flex: 1 0 auto;
@@ -31,6 +32,20 @@ body {
 .left {
     flex: 1;
 }
+
+.left h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.left p {
+    margin: 0;
+    padding: 0;
+}
+
 .left button {
     border-style: none;
     border-radius: 5px;
