@@ -127,5 +127,12 @@ a:visited {
 }
 
 .footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+}
 
+.footer div {
+    padding: 20px 0;
 }
