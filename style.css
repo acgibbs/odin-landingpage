@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    font-weight: 300;
 }
 .header {
     flex: 1 0 auto;
@@ -99,7 +100,32 @@ a:visited {
 
 .signup-container {
     flex: 0.6 0 auto;
+    padding: 40px 200px;
 }
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.signup-bold {
+    font-weight: 900;
+}
+
+.signup-right button {
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: white;
+}
+
 .footer {
 
 }
