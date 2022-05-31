@@ -39,8 +39,11 @@ body {
     color: white;
 }
 .right {
-    flex: 1;
+    flex: 1 1 0;
     background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 ul {
     display: flex;
