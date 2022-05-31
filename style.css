@@ -16,6 +16,13 @@ body {
     justify-content: space-between;
     margin: 10px 150px 0 150px;
 }
+
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 500;
+}
+
 .header-bottom {
     display: flex;
     margin: 80px 150px;
